@@ -1,3 +1,8 @@
+# Appium Bootstrap
+
+This is a collection of scripts to automate testing process with appium. 
+It includes scripts to build app, mock api server and run alltogether
+
 
 Getting started
 ===============
@@ -34,4 +39,4 @@ be rspec recommended_spec.rb
 
 TODO:
 
-create bootstrap script
+create bootstrap script to generate this structure
