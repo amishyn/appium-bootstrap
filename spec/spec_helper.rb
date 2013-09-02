@@ -5,7 +5,7 @@ require 'rspec'
 require 'selenium-webdriver'
 
 def absolute_app_path
-  file = File.join(File.dirname(__FILE__), 'app/Applications/PROJECT.app')
+  file = File.join(File.dirname(__FILE__), '../app/Applications/PROJECT.app')
   raise "App doesn't exist #{file}" unless File.exist? file
   file
 end
